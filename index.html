@@ -7,8 +7,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Four card feature section</title>
+
   <!--------bootstrap link--------------->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
  <!---------CSS-------->
  <style>
    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
@@ -23,7 +26,7 @@
    .header h1{
      color:hsl(229, 6%, 66%);
      font-weight:200;
-     line-height:2.5rem;
+     line-height:3rem;
      margin:20px 0;
    }
    .header{
@@ -44,10 +47,11 @@
     max-width:100%;
      padding:15px;
      border-radius: 10px;
-     box-shadow:4px 10px 20px rgba(178, 201, 228, 0.9);
+     box-shadow:3px 7px 20px rgba(181, 196, 214, 0.9);
    }
    .card img{
      width:80px;
+     margin-top:15px;
      margin-left:auto;
    }
    .card-title{
@@ -79,7 +83,8 @@
  </style>
 </head>
 <body>
-  <div class="container container-lg p-5">
+  <div class="container container-lg p-5" role="main">
+
     <!----------page header---------->
     <div class="header text-center">
       <h1>Reliable, efficient delivery<br> <span>Powered by Technology</span>
@@ -87,6 +92,7 @@
       <p>  Our Artificial Intelligence powered tools use millions of project data points 
         to ensure that your project is successful</p>
     </div>
+
 
     <!------------Four cards------------>
     <div class="container-body d-flex align-items-center">
@@ -97,7 +103,7 @@
               <h4 class="card-title"> Supervisor</h4>
               <p class="card-text"> Monitors activity to identify project roadblocks</p>
             </div>
-            <img src="./images/icon-supervisor.svg"  alt="search" lass="img-section">
+            <img src="./images/icon-supervisor.svg"  alt="search">
           </div>
         </div>
         <div class="col-12 col-lg-4">
@@ -108,7 +114,7 @@
                   <h4 class="card-title">Team Builder </h4>
                   <p class="card-text">Scans our talent network to create the optimal team for your project </p>
                 </div>
-                <img src="./images/icon-team-builder.svg"  alt="team-builder" class="img-section">
+                <img src="./images/icon-team-builder.svg"  alt="team-builder" >
               </div>
             </div> 
           </div>
@@ -119,7 +125,7 @@
                   <h4 class="card-title">Karma</h4>
                   <p class="card-text">Regularly evaluates our talent to ensure quality </p>
                 </div>
-                <img src="./images/icon-karma.svg"  alt="karma" lass="img-section">
+                <img src="./images/icon-karma.svg"  alt="karma">
               </div>
             </div>
           </div>
@@ -130,7 +136,7 @@
               <h4 class="card-title">Calculator</h4>
               <p class="card-text"> Uses data from past projects to provide better delivery estimates</p>
             </div>
-            <img src="./images/icon-calculator.svg"  alt="calculator" lass="img-section">
+            <img src="./images/icon-calculator.svg"  alt="calculator">
           </div>
         </div>
       </div>
